@@ -6,7 +6,7 @@ const projects = [
     technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Stripe"],
     githubLink: "https://github.com",
     demoLink: "https://demo.com",
-    image: "/src/assets/projects/e-commerce-website.png",
+    image: "/assets/projects/e-commerce-website.png",
   },
   {
     title: "Task Management App",
@@ -15,7 +15,7 @@ const projects = [
     technologies: ["React", "Node.js", "MongoDB", "Socket.io"],
     githubLink: "https://github.com",
     demoLink: "https://demo.com",
-    image: "/src/assets/projects/task-manager.webp",
+    image: "/assets/projects/task-manager.webp",
   },
   {
     title: "Portfolio Website",
@@ -24,7 +24,7 @@ const projects = [
     technologies: ["Next.js", "Tailwind CSS", "Framer Motion"],
     githubLink: "https://github.com",
     demoLink: "https://demo.com",
-    image: "/src/assets/projects/portfolio-website.jpg",
+    image: "/assets/projects/portfolio-website.jpg",
   },
   {
     title: "Blog Platform",
@@ -33,7 +33,7 @@ const projects = [
     technologies: ["Gatsby", "GraphQL", "Contentful"],
     githubLink: "https://github.com",
     demoLink: "https://demo.com",
-    image: "/src/assets/projects/blog-website.jpeg",
+    image: "/assets/projects/blog-website.jpeg",
   },
   {
     title: "Weather App",
@@ -42,7 +42,7 @@ const projects = [
     technologies: ["React", "OpenWeatherMap API"],
     githubLink: "https://github.com",
     demoLink: "https://demo.com",
-    image: "/src/assets/projects/weather-app.png",
+    image: "/assets/projects/weather-app.png",
   },
   {
     title: "Chat Application",
@@ -50,7 +50,7 @@ const projects = [
     technologies: ["React", "Node.js", "Socket.io"],
     githubLink: "https://github.com",
     demoLink: "https://demo.com",
-    image: "/src/assets/projects/chat-app.png",
+    image: "/assets/projects/chat-app.png",
   },
   {
     title: "Recipe Finder",
@@ -58,7 +58,7 @@ const projects = [
     technologies: ["React", "Edamam API"],
     githubLink: "https://github.com",
     demoLink: "https://demo.com",
-    image: "/src/assets/projects/recipe-finder.png",
+    image: "/assets/projects/recipe-finder.png",
   },
   {
     title: "Expense Tracker",
@@ -66,10 +66,9 @@ const projects = [
     technologies: ["React", "Firebase"],
     githubLink: "https://github.com",
     demoLink: "https://demo.com",
-    image: "/src/assets/projects/expense-tracker.webp",
+    image: "/assets/projects/expense-tracker.webp",
   },
 ];
-
 // Dynamically render projects
 const projectsContainer = document.getElementById("projects-container");
 projects.forEach((project) => {
